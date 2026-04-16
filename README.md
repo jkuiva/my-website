@@ -54,13 +54,13 @@ Examples:
 ---
 
 ## 📁 Project Structure
-
+```
 /
 ├── index.html        # Main page
 ├── styles.css        # Global styles
 ├── images/           # Static images
 └── README.md         # Project documentation
-
+```
 
 ---
 
