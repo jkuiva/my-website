@@ -318,7 +318,7 @@ body {
     color: var(--primary-dark);
 }
 
-.portfolio-card h3 i{
+.portfolio-card h3 {
     color: var(--accent-color);
     font-size: 1.3rem;
     margin: 1.5rem 1.5rem 0.5rem;
