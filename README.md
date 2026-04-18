@@ -10,7 +10,7 @@ The goal of this project is to practise real-world Git workflows, web fundamenta
 The site is deployed through **Cloudflare Pages**, which automatically builds and publishes the site whenever changes are merged into the `main` branch.
 
 **Production URL:**  
-https://www.kuivalainen.eu
+<https://www.kuivalainen.eu>
 
 **Preview Deployments:**  
 Every pull request triggers an automatic preview build, allowing changes to be tested before merging.
@@ -34,18 +34,22 @@ No frameworks or build tools are used at this stage — the focus is on fundamen
 This project uses a **moderate, professional-style Git workflow**:
 
 ### `main` branch
+
 - Always stable  
 - Automatically deployed to production  
 - Protected by GitHub branch rules  
 
 ### Feature branches
+
 Used for all non-trivial changes.  
 Examples:
+
 - `feature/new-layout`
 - `content/update-homepage`
 - `fix/navbar-spacing`
 
 ### Pull Requests
+
 - Every change is submitted through a PR  
 - Cloudflare Pages generates a preview deployment  
 - Changes are reviewed before merging  
@@ -54,7 +58,8 @@ Examples:
 ---
 
 ## 📁 Project Structure
-```
+
+```text
 /
 ├── index.html        # Main page
 ├── styles.css        # Global styles
@@ -86,4 +91,4 @@ This repository is part of my learning path toward:
 ## 📬 Contact
 
 **Juha Kuivalainen**  
-https://www.kuivalainen.eu
+<https://www.kuivalainen.eu>
