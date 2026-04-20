@@ -227,7 +227,7 @@ body {
 /* Hobbies Section */
 /* Centered hobby cards for a balanced multi-row layout */
 .hobbies {
-    background-color: var(--primary-dark);
+    background-color: var(--secondary-dark);
 }
 
 .hobbies-grid {
@@ -239,7 +239,7 @@ body {
 }
 
 .hobby-card {
-    background-color: var(--secondary-dark);
+    background-color: var(--primary-dark);
     padding: 2rem;
     border-radius: 10px;
     border: 1px solid var(--tertiary-dark);
@@ -277,7 +277,7 @@ body {
 /* Portfolio Section */
 /* Centered portfolio cards with responsive wrapping */
 .portfolio {
-    background-color: var(--secondary-dark);
+    background-color: var(--primary-dark);
 }
 
 .portfolio-grid {
@@ -289,7 +289,7 @@ body {
 }
 
 .portfolio-card {
-    background-color: var(--tertiary-dark);
+    background-color: var(--secondary-dark);
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid var(--tertiary-dark);
