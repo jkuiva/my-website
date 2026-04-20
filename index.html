@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/151155c55e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- Sticky Navigation Bar -->
     <nav class="navbar">
@@ -15,19 +17,34 @@
             <a href="#home" class="navbar-logo">Juha Kuivalainen</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link" aria-label="Home">
+                        <i class="fas fa-home icon"></i>
+                        <span class="text">Home</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link" aria-label="About">
+                        <i class="fas fa-user icon"></i>
+                        <span class="text">About</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#portfolio" class="nav-link" aria-label="Portfolio">
+                        <i class="fas fa-briefcase icon"></i>
+                        <span class="text">Portfolio</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#hobbies" class="nav-link">Hobbies</a>
+                    <a href="#hobbies" class="nav-link" aria-label="Hobbies">
+                        <i class="fas fa-person-running icon"></i>
+                        <span class="text">Hobbies</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link" aria-label="Contact">
+                        <i class="fas fa-envelope icon"></i>
+                        <span class="text">Contact</span>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -49,11 +66,12 @@
         <div class="container">
             <h2>About Me</h2>
             <p>
-                Hi! I'm a cybersecurity student and this webpage acts as a portfolio to showcase my skills and projects. 
+                Hi! I'm a cybersecurity student and this webpage acts as a portfolio to showcase my skills and projects.
                 This page will be updated as my learning progresses.
             </p>
             <p>
-                I'm always eager to learn new things and take on challenges that help me grow both personally and professionally.
+                I'm always eager to learn new things and take on challenges that help me grow both personally and
+                professionally.
             </p>
         </div>
     </section>
@@ -84,7 +102,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Hobbies Section -->
     <section id="hobbies" class="section hobbies">
         <div class="container">
@@ -120,8 +138,10 @@
             <h2>Get In Touch</h2>
             <p>Feel free to reach out to me for any inquiries or collaborations.</p>
             <div class="contact-links">
-                <a href="mailto:ah8145@student.jamk.fi" class="contact-btn"><i class="fa-solid fa-laptop-code"></i> Email</a>
-                <a href="https://www.linkedin.com/in/juha-kuivalainen-a9319a22" class="contact-btn"><i class="fa-solid fa-user-tie"></i> LinkedIn</a>
+                <a href="mailto:ah8145@student.jamk.fi" class="contact-btn"><i class="fa-solid fa-laptop-code"></i>
+                    Email</a>
+                <a href="https://www.linkedin.com/in/juha-kuivalainen-a9319a22" class="contact-btn"><i
+                        class="fa-solid fa-user-tie"></i> LinkedIn</a>
                 <a href="https://github.com/jkuiva" class="contact-btn"><i class="fa-solid fa-code"></i> GitHub</a>
             </div>
         </div>
@@ -134,4 +154,5 @@
         </div>
     </footer>
 </body>
+
 </html>
